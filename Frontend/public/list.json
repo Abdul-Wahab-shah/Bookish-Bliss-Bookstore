@@ -1,0 +1,75 @@
+
+[
+    {
+        "id":"1",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"0$",
+        "Category":"Free",
+        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fkinsta.com%2Fblog%2Fbest-business-books%2F&psig=AOvVaw0tzs9eIf7LOngWQfabp1wm&ust=1716323943371000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiF6ZKLnYYDFQAAAAAdAAAAABAE"
+    },
+    {
+        "id":"2",
+        "name":"Story Book",
+        "title":"A book that contains a story",
+        "Price":"0$",
+        "Category":"Free",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"3",
+        "name":"Poetry BooK",
+        "title":"Poetry book by Oscar Mancinas",
+        "Price":"$0",
+        "Category":"Free",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lisaangel.co.uk%2Fpoem-for-every-night-year-book&psig=AOvVaw2ejTrv9agkAatgB6d-qVqL&ust=1716324218980000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOD74oyMnYYDFQAAAAAdAAAAABAQ"
+    },{
+        "id":"4",
+        "name":"Story Book",
+        "title":"A book that contains a story",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"5",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"6",
+        "name":"Poetry BooK",
+        "title":"Poetry book by Oscar Mancinas",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"7",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"8",
+        "name":"Story Book",
+        "title":"A book that contains a story",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"9",
+        "name":"Poetry BooK",
+        "title":"A book that contains a story",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    },{
+        "id":"10",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"$0",
+        "Category":"Paid",
+        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+    }
+]
