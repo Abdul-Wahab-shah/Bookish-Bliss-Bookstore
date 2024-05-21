@@ -4,72 +4,102 @@
         "id":"1",
         "name":"Business Book",
         "title":"Responsible for maintaining or growing",
-        "Price":"0$",
+        "Price":"199$",
         "Category":"Free",
-        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fkinsta.com%2Fblog%2Fbest-business-books%2F&psig=AOvVaw0tzs9eIf7LOngWQfabp1wm&ust=1716323943371000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiF6ZKLnYYDFQAAAAAdAAAAABAE"
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-stack-books_23-2149331325.jpg?t=st=1716312981~exp=1716316581~hmac=b2db4456dde0d14ade9324d5d209e990c5b3ad473235288ef6e197b7a8b5fdb2&w=740"
     },
     {
         "id":"2",
         "name":"Story Book",
         "title":"A book that contains a story",
-        "Price":"0$",
+        "Price":"79$",
         "Category":"Free",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149343631.jpg?t=st=1716312908~exp=1716316508~hmac=0d1575502c08fc1ecfd3c7af104ce79eebd9d0a834fab6547980826cfa9f0099&w=740"
     },{
         "id":"3",
         "name":"Poetry BooK",
         "title":"Poetry book by Oscar Mancinas",
-        "Price":"$0",
+        "Price":"$99",
         "Category":"Free",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lisaangel.co.uk%2Fpoem-for-every-night-year-book&psig=AOvVaw2ejTrv9agkAatgB6d-qVqL&ust=1716324218980000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOD74oyMnYYDFQAAAAAdAAAAABAQ"
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-stack-books_23-2149331325.jpg?t=st=1716312981~exp=1716316581~hmac=b2db4456dde0d14ade9324d5d209e990c5b3ad473235288ef6e197b7a8b5fdb2&w=740"
+
     },{
         "id":"4",
         "name":"Story Book",
         "title":"A book that contains a story",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$49",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"5",
         "name":"Business Book",
         "title":"Responsible for maintaining or growing",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$179",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"6",
         "name":"Poetry BooK",
         "title":"Poetry book by Oscar Mancinas",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$129",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"7",
         "name":"Business Book",
         "title":"Responsible for maintaining or growing",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$159",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"8",
         "name":"Story Book",
         "title":"A book that contains a story",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$69",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"9",
         "name":"Poetry BooK",
         "title":"A book that contains a story",
-        "Price":"$0",
-        "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Price":"$90",
+        "Category":"Free",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     },{
         "id":"10",
         "name":"Business Book",
         "title":"Responsible for maintaining or growing",
-        "Price":"$0",
+        "Price":"$100",
         "Category":"Paid",
-        "Image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdcist.com%2Fstory%2F22%2F12%2F27%2Fdc-library-most-popular-books-2022%2F&psig=AOvVaw2djK_g1ucEKVKdRCL369uS&ust=1716323763477000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjF2sCKnYYDFQAAAAAdAAAAABAE"
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
+    }
+    ,{
+        "id":"11",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"$220",
+        "Category":"Paid",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
+    },{
+        "id":"12",
+        "name":"Story Book",
+        "title":"A book that contains a story",
+        "Price":"$150",
+        "Category":"Paid",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
+    },{
+        "id":"13",
+        "name":"Poetry BooK",
+        "title":"A book that contains a story",
+        "Price":"$120",
+        "Category":"Paid",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
+    },{
+        "id":"14",
+        "name":"Business Book",
+        "title":"Responsible for maintaining or growing",
+        "Price":"$110",
+        "Category":"Paid",
+        "Image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716312746~exp=1716316346~hmac=df3160aca1bf630e4d05372ee82cb72bf1b3db41a9c2e980d7cfd639cd5d7430&w=740"
     }
 ]
