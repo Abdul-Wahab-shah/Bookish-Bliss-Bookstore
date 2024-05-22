@@ -21,7 +21,7 @@ function Course() {
           </p>
           <button className="btn mt-6 bg-black text-white  border-none hover:bg-red-500">Buy Now</button>
         </div>
-        <div className="mt-12 grid grid-cols-1  md:grid-cols-3  "> 
+        <div className="mt-12 grid grid-cols-1  md:grid-cols-4  "> 
           {list.map((item)=>(
             <Card item={item} key={item.id}/>
           ))}

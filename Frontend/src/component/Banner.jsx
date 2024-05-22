@@ -1,5 +1,6 @@
 import React from "react";
 import Bannerimage from "../../public/Banner_image.jpg";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -19,7 +20,7 @@ function Banner() {
               delectus?
             </p>
             <div>
-              <label className="py-3 px-3 border rounded-md flex items-center gap-2 bg-white">
+              <label className="py-3 px-3 border rounded-md flex items-center gap-2 dark:bg-slate-800 bg-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
@@ -31,15 +32,15 @@ function Banner() {
                 </svg>
                 <input
                   type="email"
-                  className="grow outline-none bg-white text-slate-600 text-[14px]"
+                  className="grow outline-none bg-white dark:bg-slate-800 text-slate-600 dark:text-white text-[14px]"
                   placeholder="Email"
                 />
               </label>
             </div>
           </div>
-          <button className="btn mt-6 bg-black text-white  border-none hover:bg-red-500">
-            Secondary
-          </button>
+          <Link to="/courses" className="btn mt-6 bg-black text-white  border-none hover:bg-red-500">
+            Latest Offer
+          </Link>
         </div>
         <div className="w-full md:w-1/2 order-1">
           <img src={Bannerimage} alt="" />

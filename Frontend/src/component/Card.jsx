@@ -6,7 +6,7 @@ function Card({item}) {
   return (
     <>
       <div>
-        <div className="card w-96 shadow-xl my-10 hover:scale-105 duration-200">
+        <div className="card w-92 shadow-xl md:mx-2 md:my-10 my-3  hover:scale-105 duration-200 dark:border ">
           <figure>
             <img
               src={item.Image}

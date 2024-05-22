@@ -13,7 +13,7 @@ function Freebook() {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -61,6 +61,12 @@ function Freebook() {
    </Slider>
     </div>
       </div>
+      <style jsx>{`
+         .slick-prev:before,
+         .slick-next:before {
+             color: red;
+         }
+      `}</style>
     </>
   );
 }

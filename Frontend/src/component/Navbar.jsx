@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Login from "./Login";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
@@ -50,7 +52,7 @@ function Navbar() {
       <div
         className={`max-w-screen-2xl container mx-auto md:px-20 fixed top-0 left-0 right-0 z-50 ${
           sticky
-            ? "shadow-md bg-[#fa9191] duration-300 transition-all ease-in-out"
+            ? "shadow-md dark:bg-slate-800  bg-[#faf8f8] duration-300 transition-all ease-in-out"
             : ""
         }`}
       >
@@ -84,27 +86,27 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className="font-bold sm:text-2xl text-xl cursor-pointer">
+            <Link to="/" className="font-bold sm:text-2xl text-xl cursor-pointer">
               <span
                 className={`font-bol text-[35px] ${
-                  sticky ? "text-white" : "text-red-500"
+                  sticky ? "text-red-500" : "text-red-500"
                 }`}
               >
                 B
-              </span><span className={`${sticky ? "text-black" : "dark:text-white"}`}>
+              </span><span className={`${sticky ? "text-black" : " dark:text-white"}`}>
               ook
               </span>
               <span
                 className={`font-bold  text-[35px] ${
-                  sticky ? "text-white" : "text-red-500"
+                  sticky ? "text-red-500" : "text-red-500"
                 } `}
               >
                 S
               </span>
-              <span className={`${sticky ? "text-white" : "text-red-500"}`}>
+              <span className={`${sticky ? "text-red-500" : "text-red-500"}`}>
                 tore
               </span>
-            </a>
+            </Link>
           </div>
           <div className="navbar-end sm:space-x-8 space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -112,10 +114,10 @@ function Navbar() {
             </div>
             {/* Search button */}
             <div className="hidden md:block">
-              <label className="px-3 py-2 bg-white border rounded-md flex items-center gap-2">
+              <label className="px-3 py-2 bg-white dark:bg-slate-800  border rounded-md flex items-center gap-2">
                 <input
                   type="text"
-                  className="grow bg-white outline-none text-slate-600 text-[14px]"
+                  className="grow bg-white dark:bg-slate-800 outline-none dark:text-white text-slate-600 text-[14px]"
                   placeholder="Search"
                 />
                 <svg
@@ -156,9 +158,12 @@ function Navbar() {
             </div>
             {/* Login button */}
             <div>
-              <a className="py-2 px-3 p-2 rounded-md bg-black text-white hover:bg-red-500 cursor-pointer">
+              <a className="py-2 px-3 p-2 rounded-md bg-black text-white hover:bg-red-500 cursor-pointer" 
+              onClick={()=>document.getElementById("my_modal_3").showModal()}
+              >
                 Login
               </a>
+              <Login/>
             </div>
           </div>
         </div>
