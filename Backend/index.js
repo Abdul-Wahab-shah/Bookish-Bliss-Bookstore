@@ -2,7 +2,9 @@ import  express  from 'express';
 import dotenv from "dotenv"
 import mongoose from 'mongoose';
 import BookRoute from "./Route/book_route.js"
+import cors from "cors"
 const app = express()
+app.use(cors());
 const port = process.env.PORT || 4000;
 
 
