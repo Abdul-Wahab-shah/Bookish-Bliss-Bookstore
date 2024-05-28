@@ -1,12 +1,29 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import React from "react";
-import list from "../../public/list.json";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import Card from "./Card";
+
 function Freebook() {
-  const filterdata = list.filter((data) => data.Category === "Free");
-  console.log(filterdata);
+  const [book, setBook] = useState([]);
+
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const response = await axios.get("http://localhost:4000/book");
+        if (Array.isArray(response.data)) {
+          const data = response.data.filter((data) => data.Category === "Free");
+          setBook(data);
+        } else {
+          console.log("API did not return an array");
+        }
+      } catch (error) {
+        console.log("Error", error);
+      }
+    };
+    getBook();
+  }, []);
 
   var settings = {
     dots: true,
@@ -23,26 +40,26 @@ function Freebook() {
           slidesToScroll: 3,
           infinite: true,
           dots: true,
-    
-        }
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
+
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-5">
@@ -55,17 +72,20 @@ function Freebook() {
           </p>
         </div>
         <div className="slider-container">
-      <Slider {...settings}>
-      {filterdata.map((item)=>(
-          <Card item={item} key={item.id}/>))}
-   </Slider>
-    </div>
+          <Slider {...settings}>
+            {Array.isArray(book) && book.length > 0 ? (
+              book.map((item) => <Card item={item} key={item.id} />)
+            ) : (
+              <p>No books available.</p>
+            )}
+          </Slider>
+        </div>
       </div>
       <style jsx>{`
-         .slick-prev:before,
-         .slick-next:before {
-             color: red;
-         }
+        .slick-prev:before,
+        .slick-next:before {
+          color: red;
+        }
       `}</style>
     </>
   );
