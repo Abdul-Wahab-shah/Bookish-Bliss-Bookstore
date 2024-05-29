@@ -88,24 +88,11 @@ function Navbar() {
             </div>
             <Link to="/" className="font-bold sm:text-2xl text-xl cursor-pointer">
               <span
-                className={`font-bol text-[35px] ${
-                  sticky ? "text-red-500" : "text-red-500"
-                }`}
+                className="text-[25px] text-red-500"
               >
-                B
-              </span><span className={`${sticky ? "text-black" : " dark:text-white"}`}>
-              ook
+                Bookish<span className="text-[15px] text-black dark:text-white">Bliss</span>
               </span>
-              <span
-                className={`font-bold  text-[35px] ${
-                  sticky ? "text-red-500" : "text-red-500"
-                } `}
-              >
-                S
-              </span>
-              <span className={`${sticky ? "text-red-500" : "text-red-500"}`}>
-                tore
-              </span>
+        
             </Link>
           </div>
           <div className="navbar-end sm:space-x-8 space-x-3">
