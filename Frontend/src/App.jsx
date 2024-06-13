@@ -5,6 +5,8 @@ import Courses from "./assets/course/Courses";
 import { Route, Routes } from "react-router-dom";
 import Signup from "./component/Signup";
 // import Login from "./component/Login";
+import toast, { Toaster } from 'react-hot-toast';
+
 function App() {
   return (
     <div>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/signup" element={<Signup/>} />
         {/* <Route path="/login" element={<Login/>} /> */}
       </Routes>
+      <Toaster />
     </div>
   );
 }

@@ -23,26 +23,34 @@ export const signup = async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 };
-export const login =async (req,res)=>{
+export const login = async (req, res) => {
   try {
-    const {email,passwrod}=req.body
-    const user= await User.findOne({email})
-    const isMatch= await bcrypt.compare(password,user.password)
-    if(!user || !isMatch){
-      returnres.status(400).json({message:"Invalid username and password"})
-    }else{
-      res.status(200).json({
-        message:"login successfull",
-        user:{
-          _id:user._id,
-          fullname:user.fullname,
-          email:user.email,
-        },
-      });
+    const { email, password } = req.body; // Ensure correct spelling here
+
+    // Check if the user exists
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(400).json({ message: "Invalid username and password" });
     }
-    
+
+    // Compare the provided password with the stored hashed password
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(400).json({ message: "Invalid username and password" });
+    }
+
+    // If the user exists and the password matches, return the user data
+    res.status(200).json({
+      message: "Login successful",
+      user: {
+        _id: user._id,
+        fullname: user.fullname,
+        email: user.email,
+        password: user.password, // Be cautious about returning the password
+      },
+    });
   } catch (error) {
-    console.log("Error:"+ error.message)
-    res.status(500).json({message:"Internal server error"})
+    console.log("Error:" + error.message);
+    res.status(500).json({ message: "Internal server error" });
   }
-}
+};

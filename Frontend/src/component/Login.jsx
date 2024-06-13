@@ -1,16 +1,38 @@
-import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast"
+import axios from "axios";
 
 function Login() {
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const [loginSuccess, setLoginSuccess] = useState(false);
+ 
 
-    const onSubmit = (data) => {
-        console.log(data); // Log the form data
-        // Here you can perform any additional actions with the form data, such as sending it to the server
-        // For demonstration purposes, let's assume the login is successful
-        setLoginSuccess(true);
-    };
+    const onSubmit = async (data) => {
+        const userinfo = {
+          email: data.email,
+          password: data.password,
+        };
+        try {
+          const res = await axios.post("http://localhost:4000/user/login", userinfo);
+          console.log(res.data);
+          if (res.data) {
+            toast.success('Successfully created!');;
+            localStorage.setItem("Users", JSON.stringify(res.data));
+          } else {
+            toast.error('Login failed: no data received');
+          }
+        } catch (err) {
+          if (err.response) {
+            console.log(err);
+            toast("Error: " + err.response.data.message);
+          } else {
+            console.log(err);
+            toast.error("An unexpected error occurred");
+
+          }
+        }
+      };
+      
+    
 
     const handleLoginFormSubmit = (event) => {
         event.preventDefault(); // Prevent the default form submission behavior
@@ -62,7 +84,7 @@ function Login() {
                             </div>
                         </div>
                     </form>
-                    {loginSuccess && <p>You are successfully logged in!</p>}
+        
                 </div>
             </dialog>
         </>
