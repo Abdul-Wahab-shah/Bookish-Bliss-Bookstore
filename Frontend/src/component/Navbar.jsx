@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Login from "./Login";
 import { Link } from "react-router-dom";
+import Logout from "./Logout";
+import { useAuth } from "../context/Authprovider";
 
 function Navbar() {
+ 
+  const [authUser,setAuthUser]=useAuth()
+
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const element = document.documentElement;
 
@@ -144,14 +149,16 @@ function Navbar() {
               </label>
             </div>
             {/* Login button */}
-            <div>
+            {
+              authUser ? (<Logout/>) :
+              (<div>
               <a className="py-2 px-3 p-2 rounded-md bg-black text-white hover:bg-red-500 cursor-pointer" 
               onClick={()=>document.getElementById("my_modal_3").showModal()}
               >
                 Login
               </a>
               <Login/>
-            </div>
+            </div>)}
           </div>
         </div>
       </div>

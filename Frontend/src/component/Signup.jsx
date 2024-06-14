@@ -1,17 +1,14 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import Login from "./Login";
-import { Link } from "react-router-dom";
-import toast from "react-hot-toast"
+import { Link, useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 import axios from "axios";
 
 function Signup() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
   const [registrationSuccess, setRegistrationSuccess] = useState(false);
+  const navigate = useNavigate(); // Initialize useNavigate hook
 
   const onSubmit = async (data) => {
     const userinfo = {
@@ -25,14 +22,14 @@ function Signup() {
       if (res.data) {
         toast.success('Successfully created!');
         setRegistrationSuccess(true);
+        localStorage.setItem("Users", JSON.stringify(res.data));
+        navigate("/"); // Navigate to the home page upon successful signup
       }
-      localStorage.setItem("Users",JSON.stringify(res.data))
     } catch (err) {
-     if(err.response){
-      console.log(err);
-      toast("Error: " + err.response.data.message);
-     }
-
+      if (err.response) {
+        console.log(err);
+        toast.error("Error: " + err.response.data.message);
+      }
     }
   };
 

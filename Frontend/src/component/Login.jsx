@@ -16,7 +16,13 @@ function Login() {
           console.log(res.data);
           if (res.data) {
             toast.success('Successfully created!');;
-            localStorage.setItem("Users", JSON.stringify(res.data));
+            document.getElementById("my_modal_3").close();
+
+            setTimeout(() => {
+              
+              localStorage.setItem("Users", JSON.stringify(res.data));
+              window.location.reload();
+            },1000);
           } else {
             toast.error('Login failed: no data received');
           }
@@ -24,6 +30,7 @@ function Login() {
           if (err.response) {
             console.log(err);
             toast("Error: " + err.response.data.message);
+            setTimeout(()=>{},3000)
           } else {
             console.log(err);
             toast.error("An unexpected error occurred");
